@@ -1,8 +1,8 @@
-FROM python:3.11-alpine
+FROM python3
 
 
 WORKDIR /app
 
 COPY . .
 
-CMD [ "python", "./tarun.py" ]
+CMD [ "python", "./aa.py" ]
